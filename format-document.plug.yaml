@@ -1,6 +1,6 @@
-name: hello
+name: format-document
 functions:
-  helloWorld:
-    path: hello.ts:helloWorld
+  formatDocument:
+    path: format-document.ts:formatDocument
     command:
       name: "Format document"

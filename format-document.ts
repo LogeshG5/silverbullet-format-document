@@ -1,5 +1,5 @@
 import { editor } from "@silverbulletmd/silverbullet/syscalls";
 
-export async function helloWorld() {
+export async function formatDocument() {
   await editor.flashNotification("Hello world!");
 }

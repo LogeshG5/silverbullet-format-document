@@ -1,11 +1,13 @@
 {
   "tasks": {
-    "build": "silverbullet plug:compile -c deno.jsonc hello.plug.yaml",
-    "watch": "silverbullet plug:compile -c deno.jsonc hello.plug.yaml -w"
+    "build": "silverbullet plug:compile -c deno.jsonc format-document.plug.yaml",
+    "watch": "silverbullet plug:compile -c deno.jsonc format-document.plug.yaml -w"
   },
   "lint": {
     "rules": {
-      "exclude": ["no-explicit-any"]
+      "exclude": [
+        "no-explicit-any"
+      ]
     }
   },
   "fmt": {
