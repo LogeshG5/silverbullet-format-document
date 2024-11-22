@@ -1,4 +1,6 @@
 name: format-document
+requiredPermissions:
+  - shell
 functions:
   formatDocument:
     path: format-document.ts:formatDocument
