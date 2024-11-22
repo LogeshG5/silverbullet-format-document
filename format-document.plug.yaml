@@ -3,4 +3,4 @@ functions:
   helloWorld:
     path: hello.ts:helloWorld
     command:
-      name: "Say hello"
+      name: "Format document"
